@@ -1,0 +1,27 @@
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+  div#medium,
+  div#large {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) {
+  body {
+    background-color: rgb(34, 255, 0);
+  }
+  div#small,
+  div#large {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(21, 0, 255);
+  }
+  div#small,
+  div#medium {
+    display: none;
+  }
+}
